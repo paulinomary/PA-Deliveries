@@ -1,0 +1,7 @@
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\obj\Debug\ResolveAssemblyReference.cache
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\obj\Debug\CLD.csproj.GenerateResource.Cache
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\obj\Debug\CLD.Properties.Resources.resources
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\bin\Debug\CLD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\bin\Debug\CLD.pdb
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\obj\Debug\CLD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 CLD\FCTH\obj\Debug\CLD.pdb

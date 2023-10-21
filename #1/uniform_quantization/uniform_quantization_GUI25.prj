@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2922196517" file="\\central-los\home\bbezaire\Documents\MATLAB\Misc\SpeechApps\uniform_quantization\uniform_quantization\uniform_quantization_GUI25.prj" location="\\central-los\home\bbezaire\Documents\MATLAB\Misc\SpeechApps\uniform_quantization\uniform_quantization" name="uniform_quantization_GUI25" target="target.mlapps" target-name="Package App">
+    <param.appname>uniform_quantization_GUI25</param.appname>
+    <param.authnamewatermark>Speech Processing</param.authnamewatermark>
+    <param.email>speechprocessing2013@gmail.com</param.email>
+    <param.company>Rutgers University/Stanford University</param.company>
+    <param.icon>${PROJECT_ROOT}\uniform_quantization_GUI25_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\uniform_quantization_GUI25_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\uniform_quantization_GUI25_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\uniform_quantization_GUI25_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>This MATLAB exercise illustrates the process of uniform quantization of a speech sample.</param.summary>
+    <param.description>This MATLAB exercise illustrates the process of uniform quantization of a speech sample using a range of B-bits per sample, and displays the unquantized signal, the quantized signal and the error signal at the selected bit rate along with plots of signal and error power density spectrum, and the histogram of the quantization error signal.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\screenshot_uniform_quantization.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+      <item>'8'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+      <item>7.0</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\uniform_quantization_GUI25.mlappinstall</param.output>
+    <param.guid>d35f0334-2349-4360-b7db-00ab8f989af4</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\uniform_quantization_GUI25.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Callbacks_uniform_quantization_GUI25.m</file>
+      <file>${PROJECT_ROOT}\pd_spect_U.m</file>
+      <file>${PROJECT_ROOT}\sp_gram_U.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\5.3 Uniform Quantify.pdf</file>
+      <file>${PROJECT_ROOT}\Read_Me.txt</file>
+      <file>${PROJECT_ROOT}\uniform_quantize.mat</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="\\central-los\home\bbezaire\Documents\MATLAB\Misc\SpeechApps\uniform_quantization\uniform_quantization" name="uniform_quantization_GUI25.mlappinstall" optional="false">\\central-los\home\bbezaire\Documents\MATLAB\Misc\SpeechApps\uniform_quantization\uniform_quantization\uniform_quantization_GUI25.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

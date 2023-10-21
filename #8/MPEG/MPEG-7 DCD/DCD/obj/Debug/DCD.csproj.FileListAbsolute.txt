@@ -1,0 +1,14 @@
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\bin\Debug\DCD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\bin\Debug\DCD.pdb
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\obj\Debug\ResolveAssemblyReference.cache
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\obj\Debug\DCD.Properties.Resources.resources
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\obj\Debug\DCD.csproj.GenerateResource.Cache
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\obj\Debug\DCD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 DCD\FCTH\obj\Debug\DCD.pdb
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\bin\Debug\DCD.dll
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\bin\Debug\DCD.pdb
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\obj\Debug\ResolveAssemblyReference.cache
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\obj\Debug\DCD.Properties.Resources.resources
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\obj\Debug\DCD.csproj.GenerateResource.Cache
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\obj\Debug\DCD.dll
+J:\Documents and Settings\S. Chatzichristofis\Desktop\MPEG-7 DCD\DCD\obj\Debug\DCD.pdb

@@ -1,0 +1,7 @@
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\obj\Debug\ResolveAssemblyReference.cache
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\obj\Debug\EHD.Properties.Resources.resources
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\obj\Debug\EHD.csproj.GenerateResource.Cache
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\bin\Debug\EHD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\bin\Debug\EHD.pdb
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\obj\Debug\EHD.dll
+d:\Διατριβή\My Descriptors\MPEG-7 SCD\FCTH\obj\Debug\EHD.pdb

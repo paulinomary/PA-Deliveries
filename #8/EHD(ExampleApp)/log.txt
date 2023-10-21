@@ -1,0 +1,207 @@
+Change log
+-------------------------------------
+2011-07-13-1.0.4211
+Several Bugs Fixed
+1.	CCDs Late Fusion Methods
+2.	Mpeg 7 Late Fusion Methods
+3.	Color Histograms Search problem (thanks to Oge Marques)
+4.	AutoCorrelogram problem (thanks to Oge Marques)
+New Features
+5.	Visual Words Search Using several weight and normalization methods (8 new methods)
+6.	Color Visual Words (CoViWo) – Alpha version
+7.	New methods for custom codebooks
+8.	New methods for dynamically sized codebooks
+9.	New “Create index files” methods
+10.	SURF as well as CoViWo features are now saved in binary files (for faster retrieval)
+11.	XML files are now more compact
+12.	Batch mode is even faster
+13.	Select the number of the results for the TrecFiles (in batch mode)
+
+
+
+2011-03-15 1.0.4090
+1. SURF descriptor is now supported in img(Rummager). The imlementation was based on EMGU CV cross platform .Net wrapper. 
+2. TD-TREES for local descriptor matching
+3. Visual words descriptor using SURF descriptor
+4. Generate custom visual dictionaries
+5. New fusion methods
+	A. Nanson Rule
+	B. Borda Count Min
+	C. Borda Count MAX
+	D. Fuzzy Ruled Based Fusion	*
+	E. Borda Pessimism 		**
+	F. BOrda Optimism 		**
+	G. BOrda Neutral 		**
+6. Generate Video Summaries 		***
+7. Batch mode is up to 10 times faster
+8. Fixed several bugs
+9. Save batch mode results in TREC format - and use TRECFiles Evaluator to evaluate the results
+10. Relevance Feedback is now working again
+11. img(Finder) is now working again
+
+* A novel, simple, and efficient method for rank-based late fusion of retrieval result-lists. The approach taken is rule-based, employs a fuzzy system, and does not require training data. 
+
+** M. Zarghami. Soft computing of the borda count by fuzzy linguistic quantifiers. Appl. Soft Comput., 11(1):1067–1073, 2011.
+
+*** V. S. Kalogeiton, D. P. Papadopoulos, S. A. Chatzichristofis and Y. S. Boutalis, “A NOVEL VIDEO SUMMARIZATION METHOD BASED ON COMPACT COMPOSITE DESCRIPTORS AND FUZZY CLASSIFIER”, «1st International Conference for Undergraduate and Postgraduate Students in Computer Engineering, Informatics, related Technologies and Applications», pp. 237-246, October 14 to 15, 2010, Patra, Greece.
+
+Comming Soon:
+Sift Descriptor
+Sift visual words
+TOP-SURF descriptor
+
+2010-05-05 1.0.3776
+img Retrieval
+1.New Shape Descriptor (CSPD)
+2.SpCD bug fixed
+
+img Retrieval
+3.MPEG-7 Descriptors Fusion
+	-Using HIS*
+		-Download Empirical (Historical) Files From the WEB.
+	-Using Z-Score
+	-Using Borda Count
+	-Using IRP
+	-Using Linear Sum
+4.MPEG-7 and CCD Descriptors Fusion
+	-Using HIS*
+		-Download Empirical (Historical) Files From the WEB.
+	-Using Z-Score
+	-Using Borda Count
+	-Using IRP
+	-Using Linear Sum
+5.From now on we are using a Compact Version of the BTDH for indexing and retrieval
+6.New descriptor (B-CEDD). During the search process, an image query is entered and the system returns images with a similar content. Initially, the similarity/distance between the query and each image in the database is calculated with the B-CEDD descriptor, and only if the distance is smaller than a predefined threshold,the comparison of their CEDDs is performed.
+7.Now you can save the retrieval results in trec_eval format
+8.Indexing is now working with *.bmp,*.jpg and *.jpg
+
+
+
+2010-03-02 1.0.3686
+Laboratory
+1.SpCD Descriptor Improvements
+2.Binarization using the Otsu Method
+3.SURF Features
+
+img Retrieval
+4.New Menus. The descriptors are now better organized.
+5.BTDH Bug Fixed
+6.SpCD Bug Fixed
+.7CCD Fusion 
+	-Using HIS*
+		-Download Empirical (Historical) Files From the WEB.
+	-Using Z-Score
+	-Using Borda Count
+	-Using IRP
+	-Using Linear Sum
+8.Search Using Multiple Queries and Evaluate the Results of all the queries
+	-Help Menu Added
+9.New Sliding Show Method
+
+Other
+10.Check the change log from the Help Menu
+11.New Help Files
+
+2009-19-12 1.0.3640
+img Retrieval
+1. Evaluate the results using the new Mean Normalized Retrieval Order
+2. BTDH descriptor bug fixed
+
+2009-7-17 1.0.348
+Laboratory
+1.New version of the Spatial Color Layout Descriptor
+2.New (FInal) version of the BTDH descriptor
+3.New Fyzzy Linking System (HSV-8 bin linking histogram)
+
+img Retrieval
+4. New (FInal) version of BTDH. This descriptor is now more compact - You have to re index your images.
+5. New version of SpCD. This descriptor combines color and spatial color distribution information. The descriptors of this type can be used for image retrieval by using hand-drawn sketch queries, since this  descriptor captures the layout information of color feature.
+6. Design Custom Search Method Bug (X23227) Fixed
+7. EHD bug Fixed (Thanks to Mattia Broilo :) )
+
+Extras
+8. img(Paint.Anaktisi) uses the latest version of SpCD
+9. img(Finder) uses the latest version of SpCD
+
+2009-5-13 1.0.342
+Laboratory
+1. New tab "Color Spaces"
+2. New tab "Shape Features"
+3. Get the image projections
+4. Get the TSRD Descriptor
+5. Find the connected components
+
+img Retrieval
+6. Reset Ground truth bug (X23226) Fixed
+7. Preview the first 10 results as sliding show
+8. ADS bug Fixed
+
+Demos
+9. Binary, nearest-neighbor, one-dimensional automaton demo
+The simplest type of cellular automaton is a binary, nearest-neighbor, one-dimensional automaton. Such automata were  called "elementary cellular automata" by S. Wolfram, who has extensively studied their 	amazing properties. There are  256 such automata, each of which can be indexed by a unique binary number whose decimal representation is known as the  "rule" for the particular automaton. 
+10. A cellular automaton demo for the propagation of circular fronts.  http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V2M-4FN76M9-1&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&vie w=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=cfc0aa9de1373cb460ce2ee30192ecc1
+
+Extras
+11.img(Encryption) A new method for visual multimedia content encryption using cellular automata. The encryption scheme  is based on the application of an attribute of the CLF XOR filter, according to which the original content of a cellular  neighborhood can be reconstructed following a predetermined number of repeated applications of the filter. The  encryption is achieved using a key image of the same dimensions as the image being encrypted. This technique is  accompanied by the one-time pad (OTP) encryption method, rendering the proposed method reasonably powerful, given the  very large number of resultant potential security keys. The proposed method is further strengthened by the fact that the  resulting encrypted image for a given key image is different each time, since its result depends on a random number  generator.
+A semi-blind source separation algorithm is used to decrypt the encrypted image. The result of the decryption is a  loss-less representation of the encrypted image. Simulation results for grayscale and color images demonstrate the  effectiveness of the proposed encryption method.
+
+Improvements
+12. Check for updates menu
+
+2009-2-24 1.0.334
+Laboratory
+1. Tamura texture feature bug fixed (Thanks to Ben Struss)
+2. HMMD Color Space
+
+Img Retrieval
+2. Now you can combine all the data files in an XML file. Select the descriptors you want and create the XML file. (You have to recreate the index files for your databases)
+3. Hybrid search. Connect to our server and download the latest available keywords. Then combine the keywords with a visual example images and retrieve images from FlickR. Every week we will update the ?available keyword? list. So far 5000 images are available in our server.
+4. EHD descriptor bug fixed. 
+
+Improvements
+5. ?Lite? and ?Normal? Versions are now combined.
+
+
+2008-12-06?1.0.326
+Laboratory
+1. Tamura Texture Directionality Histogram (Bug Fixed)
+2. Auto Correlograms using several methods and max distances
+3. Color Histogram Crisp Linking
+4. Brightness and Texture Directionality Descriptor (New Descriptor)
+5. Scalable Fuzzy Brightness and Texture Directionality Descriptor (New Descriptor)
+6. Spatial Color Layout (Beta Version) (New Descriptor)
+Img Retrieval
+7. Joint Composite Descriptor (Final Version) (New Descriptor)
+8. Auto Descriptor Selector (Final Version)
+9. Color Histograms (RGB)
+10. Auto Correlogram
+11. Tamura Texture?
+Evaluation Methods
+12. Evaluate retrieval results using ANMRR and/or Mean Average Precision
+
+Improvements
+13. Faster creation of index files
+14. .Net Framework 3.5 Support
+
+Img(Paing.Anaktisi)
+15. Retrieve images form sketches using the beta version of "Spatial Color Layout" (New Descriptor)
+16. Retrieve images from Sketches using "Color Layout Descriptor"
+
+Img(Finder)
+17. Retrieve images form sketches using the beta version of "Spatial Color Layout" (New Descriptor)
+
+2008-09-02?1.0.317
+1. New Descriptor for Image Retrieval (Joint Composite Descriptor)
+2. New Version Of CEDD and FCTH. Now with better ANMRR Results in several Databases.(Download the results)
+3. Auto Descriptor Selector. Let img(Rummager) select the proper descriptor for each image
+4. Img(Finder) is now embedded in img(Rummager)
+5. Tamura Textures
+6.?NO MORE TRIAL LIMITATIONS
+7. Windows XP?error image 0X1221?bug Fixed?(Thanks to George Constantinou!)
+8. Real Time Face Tracking (Known BUG: Works only on Windows XP)
+9. Img(Finder) Friends Count?0X0216?Bug Fixed
+10. Texture Based Image Tiling
+---------------------------------
+
+
+

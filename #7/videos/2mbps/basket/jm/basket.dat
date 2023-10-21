@@ -1,0 +1,106 @@
+ -------------------------------------------------------------- 
+  This file contains statistics for the last encoded sequence   
+ -------------------------------------------------------------- 
+ Sequence                     : BasketballDrive_1920x1080_50_pad_1920x1088.yuv
+ No.of coded pictures         :   60
+ Freq. for encoded bitstream  :   50
+ I Slice Bitrate(kb/s)        : 183.18
+ P Slice Bitrate(kb/s)        : 884.42
+ B Slice Bitrate(kb/s)        : 1383.82
+ Total Bitrate(kb/s)          : 2451.70
+ ME Level 0 Metric            : SAD
+ ME Level 1 Metric            : Hadamard SAD
+ ME Level 2 Metric            : Hadamard SAD
+ Mode Decision Metric         : Hadamard SAD
+ ME for components            : Y
+ Image format                 : 1920x1088
+ Error robustness             : Off
+ Search range                 : 32
+ Total number of references   : 5
+ References for P slices      : 5
+ List0 refs for B slices      : 5
+ List1 refs for B slices      : 1
+ Profile/Level IDC            : (100,60)
+ Entropy coding method        : CABAC
+ EPZS Pattern                 : Extended Diamond
+ EPZS Dual Pattern            : Extended Diamond
+ EPZS Fixed Predictors        : Aggressive
+ EPZS Aggressive Predictors   : Disabled
+ EPZS Temporal Predictors     : Enabled
+ EPZS Spatial Predictors      : Enabled
+ EPZS Threshold Multipliers   : (1 0 2)
+ EPZS Subpel ME               : Basic
+ EPZS Subpel ME BiPred        : Basic
+ Search range restrictions    : none
+ RD-optimized mode decision   : used
+
+ ---------------------|----------------|---------------|
+     Item             |     Intra      |   All frames  |
+ ---------------------|----------------|---------------|
+ SNR Y(dB)            | 36.57          | 33.10         |
+ SNR U/V (dB)         | 41.21/41.42    | 39.05/38.33   |
+ ---------------------|----------------|---------------|
+
+ ---------------------|----------------|---------------|---------------|
+     SNR              |        I       |       P       |       B       |
+ ---------------------|----------------|---------------|---------------|
+ SNR Y(dB)            |      36.570    |     34.435    |     32.825    |
+ SNR U(dB)            |      41.213    |     39.089    |     38.998    |
+ SNR V(dB)            |      41.419    |     38.793    |     38.203    |
+ ---------------------|----------------|---------------|---------------|
+
+ ---------------------|----------------|---------------|---------------|
+     Ave Quant        |        I       |       P       |       B       |
+ ---------------------|----------------|---------------|---------------|
+        QP            |      35.000    |     38.750    |     40.059    |
+ ---------------------|----------------|---------------|---------------|
+
+ ---------------------|----------------|
+   Intra              |   Mode used    |
+ ---------------------|----------------|
+ Mode 0  intra 4x4    |    419         |
+ Mode 1  intra 8x8    |   3047         |
+ Mode 2+ intra 16x16  |   4694         |
+ Mode    intra IPCM   |      0         |
+ ---------------------|----------------|-----------------|
+   P Slice            |   Mode used    | MotionInfo bits |
+ ---------------------|----------------|-----------------|
+ Mode  0  (copy)      |  11584         |        0.00     |
+ Mode  1  (16x16)     |   3292         |     4135.38     |
+ Mode  2  (16x8)      |    800         |     1713.50     |
+ Mode  3  (8x16)      |    565         |     1238.38     |
+ Mode  4  (8x8)       |    189         |      871.75     |
+ Mode  5  intra 4x4   |   1337         |-----------------|
+ Mode  6  intra 8x8   |  14668         |
+ Mode  7+ intra 16x16 |  32845         |
+ Mode     intra IPCM  |      0         |
+ ---------------------|----------------|-----------------|
+   B Slice            |   Mode used    | MotionInfo bits |
+ ---------------------|----------------|-----------------|
+ Mode  0  (copy)      |  333307         |        0.00     |
+ Mode  1  (16x16)     |  51038         |     6265.86     |
+ Mode  2  (16x8)      |   4804         |      905.96     |
+ Mode  3  (8x16)      |   5195         |      919.06     |
+ Mode  4  (8x8)       |   1044         |      275.51     |
+ Mode  5  intra 4x4   |   1469         |-----------------|
+ Mode  6  intra 8x8   |   5876         |
+ Mode  7+ intra 16x16 |  13427         |
+ Mode     intra IPCM  |      0         |
+ ---------------------|----------------|
+
+ ---------------------|----------------|----------------|----------------|----------------|
+  Bit usage:          |      Intra     |      Inter     |    B frame     |    SP frame    |
+ ---------------------|----------------|----------------|----------------|----------------|
+ Header               |      32.00     |      75.88     |      43.96     |
+ Mode                 |   45427.00     |   38665.38     |   10982.12     |
+ Motion Info          |        ./.     |    7959.00     |    8366.39     |
+ CBP Y/C              |   15826.00     |   11122.00     |    2583.00     |
+ Coeffs. Y            |  118790.00     |   54658.50     |    7730.61     |       0.00     |
+ Coeffs. C            |   38989.00     |   19541.50     |    2583.18     |       0.00     |
+ Coeffs. CB           |       0.00     |       0.00     |       0.00     |       0.00     |
+ Coeffs. CR           |       0.00     |       0.00     |       0.00     |       0.00     |
+ Delta quant          |     462.00     |     319.38     |      36.90     |
+ Stuffing Bits        |       2.00     |       6.62     |       4.57     |
+ ---------------------|----------------|----------------|----------------|
+ average bits/frame   |  219528.00     |  132348.25     |   32330.72     |
+ ---------------------|----------------|----------------|----------------|
